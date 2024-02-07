@@ -4,9 +4,9 @@
 
 Probably not hard requirements, but the current versions I used in my environment. Hopefully Poetry is not a "special" package management system.
 
-Python 3.11+
-Pydantic 2.6.1+
-Poetry 1.7.1+
+- Python 3.11+
+- Pydantic 2.6.1+
+- Poetry 1.7.1+
 
 ## Installation
 
