@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "bighat-challenge"
+version = "0.1.0"
+description = ""
+authors = ["Lawrence Lee <3534824+lawrlee@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.6.1"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.0.0"
+pytest-asyncio = "^0.23.4"
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.21.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.poetry.scripts]
+dag = "bighat_challenge:main"
